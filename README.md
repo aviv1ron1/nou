@@ -1,11 +1,9 @@
 # nou
 nou = Null Or Undefined
 
-this is a node module that creates shortcut methods for util.isNullOrUndefined
+Tired of writing  `util.isNullOrUndefined`? This module is for you! It creates shortcut methods such as `isNou` or `isNull`.
 
-because its too hard and long to write `util.isNullOrUndefined`
-
-instead use:
+# Usage:
 ``
 const nou = require('nou');
 
