@@ -4,7 +4,8 @@ nou = Null Or Undefined
 Tired of writing  `util.isNullOrUndefined`? This module is for you! It creates shortcut methods such as `isNou` or `isNull`.
 
 # Usage:
-``
+
+```javascript
 const nou = require('nou');
 
 var x; //x is undefined
@@ -17,10 +18,12 @@ nou.isNull(x); //true
 nou.isNotNou(""); //true
 nou.isNotNull(""); //true
 nou.isDefined(""); //true
-``
+```
+# installation:
+`npm i --save nou`
 
-this is the actual code:
-``
+# this is the actual code
+```javascript
 module.exports = {
     isNou: (x) => {
         return util.isNullOrUndefined(x);
@@ -38,9 +41,5 @@ module.exports = {
         return !util.isNullOrUndefined(x);
     }
 }
-``
-
-
-installation:
-`npm i --save nou`
+```
 
